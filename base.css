@@ -1,0 +1,62 @@
+html {
+    font-family: 'PT Sans', sans-serif;
+}
+
+.screen-wrap{
+    position: relative;
+    background-color: rgb(150,164,194);
+    height:110px;
+    width: 326px;
+    position: absolute;
+    top: 11.6%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    -webkit-box-shadow: 0 6px 6px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0 6px 6px -3px rgba(0,0,0,0.75);
+        box-shadow: 0 6px 6px -3px rgba(0,0,0,0.75);
+        border-radius: 4px;
+}
+.screen {
+    position: absolute;
+    top:50%;
+    word-wrap:break-word;
+    width: 326px;
+    padding: 10px 45px;
+    transform:translateY(-50%);
+}
+.calculator {
+    border-radius: 4px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 326px;
+    height: 460px;
+    padding: 38px;
+    padding-top: 110px;
+    padding-bottom: 100px;
+    color: white;
+    background: rgb(54, 133, 144);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, .2);
+    overflow: hidden;
+}
+.btn {
+    margin: 3px;
+    height: 45px;
+    width: 60px;
+    background: rgb(43, 47, 91);
+    margin-top: 18px;
+    font-family: 'PT Sans', sans-serif;
+}
+.btn:focus {
+    color:white;
+}
+.btn:hover {
+    color:white;
+}
+.func-button {
+    background: linear-gradient(to bottom, rgba(252,156,23,1) 0%, rgba(247,126,27,1) 100%);
+}
+#output {
+    font-size : 20px;
+}
